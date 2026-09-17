@@ -1,0 +1,120 @@
+# ======================
+# Backend (Django)
+# ======================
+__pycache__/
+**/__pycache__/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+*.pyc
+*.pyo
+*.pyd
+backend/db.sqlite3
+backend/*.sqlite3
+
+# Env files (VERY IMPORTANT)
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Logs
+backend/*.log
+
+# Static & media
+backend/media/
+backend/staticfiles/
+
+# ======================
+# Frontend (React)
+# ======================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Env files
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ======================
+# Global (applies anywhere)
+# ======================
+.env
+*.env
+*.key
+.venv
+*.venv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+
+# ──────────────────────────────────────────────────────────────────────
+# Internal compliance / strategy / operations documents.
+# These are intentionally NOT public. Track them in a separate private
+# repo or knowledge base if you need them under version control.
+# ──────────────────────────────────────────────────────────────────────
+COMPLIANCE_CHECKLIST.md
+DATA_INVENTORY.md
+DATA_PROCESSING_AGREEMENT.md
+GOOGLE_VERIFICATION_DOCS.md
+INCIDENT_RESPONSE.md
+INFRASTRUCTURE_HARDENING.md
+INTEGRATION_AUDIT.md
+META_REVIEW_DOCS.md
+PENTEST_RFP.md
+RISK_REGISTER.md
+SECURITY_BASELINE.md
+UI_FIXES_AUDIT.md
+
+# Draft legal templates that contain {{ placeholder }} markers awaiting
+# counsel review. The actual user-facing legal copy lives in the React
+# pages under frontend/src/pages/ (PrivacyPolicyPage, TermsOfServicePage,
+# DPDPPage, GDPRPage, etc.).
+PRIVACY_POLICY.md
+TERMS_OF_SERVICE.md
+SECURITY_WHITEPAPER.md
+SUB_PROCESSORS.md
+# --- added for GitLab push ---
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+out/
+.cache/
+.parcel-cache/
+coverage/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.log
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
+staticfiles/
+.pytest_cache/
+.mypy_cache/
+*.sqlite3
