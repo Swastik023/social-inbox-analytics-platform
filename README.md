@@ -1,4 +1,7 @@
-# Social Stats — Open-Source Social Media Management & Marketing Platform
+# Social Radar Suite — Omni-Channel Customer Intelligence & Response Platform
+
+> A unified social inbox consolidating direct messages, customer sentiment analysis, engagement metrics, and AI response drafting across networks.
+
 
 > An open-source, self-hostable alternative to Hootsuite, Buffer & Sprout Social.
 
