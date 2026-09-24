@@ -8,7 +8,7 @@
 ---
 
 **To:** Data Protection Board of India
-**Subject:** Personal Data Breach Notification — Social Stats Inc. — Reference {{ incident.reference_number }}
+**Subject:** Personal Data Breach Notification — Social Radar Suite Inc. — Reference {{ incident.reference_number }}
 
 ## 1. Identity of the Data Fiduciary
 

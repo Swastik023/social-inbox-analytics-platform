@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -7,7 +7,7 @@
 #  Released under the MIT License — see LICENSE. Keep this notice.
 # ============================================================================
 """
-Social Stats Assistant chat endpoints.
+Social Radar Suite Assistant chat endpoints.
 
 Endpoints:
     POST   /api/ai/v2/chat/                       — send a message + (optional) confirm an action

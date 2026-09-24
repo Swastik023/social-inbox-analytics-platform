@@ -5,7 +5,7 @@
 
 > An open-source, self-hostable alternative to Hootsuite, Buffer & Sprout Social.
 
-**Social Stats** is an open-source **social media management** and marketing platform for
+**Social Radar Suite** is an open-source **social media management** and marketing platform for
 agencies and teams. One product unifies a **social media scheduler** and **content calendar**,
 cross-platform **analytics dashboards**, a unified conversation inbox, a click-to-WhatsApp
 **bot builder**, and an **AI social media assistant** — across **Facebook**, **Instagram**,
@@ -14,10 +14,10 @@ messaging module. It's built on **Django + React** and is fully self-hostable.
 
 <!-- Badges — replace `cbsshekhawat18` with your GitHub org/username if different,
      and the repo slug if you don't use `social-stats-social-media-manager`. -->
-[![Tests](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/actions/workflows/tests.yml/badge.svg)](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/actions/workflows/tests.yml)
+[![Tests](https://github.com/swastik-agnihotri/social-radar-suite/actions/workflows/tests.yml/badge.svg)](https://github.com/swastik-agnihotri/social-radar-suite/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/cbsshekhawat18-lab/social-stats-social-media-manager?style=social)](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/cbsshekhawat18-lab/social-stats-social-media-manager)](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/commits)
+[![Stars](https://img.shields.io/github/stars/swastik-agnihotri/social-radar-suite?style=social)](https://github.com/swastik-agnihotri/social-radar-suite/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/swastik-agnihotri/social-radar-suite)](https://github.com/swastik-agnihotri/social-radar-suite/commits)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 > **Status:** early-stage. The product is feature-complete enough to run
@@ -26,7 +26,7 @@ messaging module. It's built on **Django + React** and is fully self-hostable.
 > case studies on the marketing site are intentionally absent until we
 > onboard the first cohort of launch partners.
 
-> ⭐ **If Social Stats is useful to you, please star the repo** — it helps other
+> ⭐ **If Social Radar Suite is useful to you, please star the repo** — it helps other
 > people building self-hosted social tooling find the project.
 
 ---
@@ -77,7 +77,7 @@ Full guides live in [`docs/`](docs/):
 
 ## Features
 
-Social Stats is a full product, not a single dashboard. It ships a public
+Social Radar Suite is a full product, not a single dashboard. It ships a public
 **marketing website**, an **admin shell**, **multi-client dashboards**, and the
 modules below — all in one codebase.
 
@@ -150,11 +150,11 @@ modules below — all in one codebase.
 ## How it compares
 
 An honest, structural comparison vs. closed-source SaaS tools (Hootsuite, Buffer,
-Sprout Social). Social Stats is early-stage; this compares licensing/hosting and
+Sprout Social). Social Radar Suite is early-stage; this compares licensing/hosting and
 the feature categories it actually ships — see [docs/COMPARISON.md](docs/COMPARISON.md)
 for the full picture.
 
-| | **Social Stats** | Closed SaaS |
+| | **Social Radar Suite** | Closed SaaS |
 |---|---|---|
 | License | **Open source (MIT)** | Proprietary |
 | Hosting | **Self-host, own your data** | Vendor cloud only |
@@ -203,8 +203,8 @@ docker compose exec backend python manage.py demo_setup
 ```
 
 Images are published to GHCR on every release:
-`ghcr.io/cbsshekhawat18-lab/social-stats-backend` and
-`ghcr.io/cbsshekhawat18-lab/social-stats-frontend` (`:latest` + semver tags).
+`ghcr.io/swastik-agnihotri/social-stats-backend` and
+`ghcr.io/swastik-agnihotri/social-stats-frontend` (`:latest` + semver tags).
 
 Set at least `SECRET_KEY` (and `ANTHROPIC_API_KEY` for AI) in a `.env.docker`
 file at the repo root — see `backend/.env.example` for every variable.
@@ -360,7 +360,7 @@ starting points — adapt to your environment.
 
 ## Contributing
 
-Social Stats is an open codebase and PRs are welcome — see
+Social Radar Suite is an open codebase and PRs are welcome — see
 [CONTRIBUTING.md](./CONTRIBUTING.md) and our
 [Code of Conduct](./CODE_OF_CONDUCT.md). Good areas to start:
 
@@ -379,7 +379,7 @@ for everyone else looking for an open-source social media management tool.
 
 ## Author & Credits
 
-**Social Stats** is built and maintained by **Chandrabhan Shekhawat** —
+**Social Radar Suite** is built and maintained by **Chandrabhan Shekhawat** —
 **Gigai Kripa Services**.
 
 - 🌐 Website: <https://gigaikripaservices.com/>
@@ -387,7 +387,7 @@ for everyone else looking for an open-source social media management tool.
 - 🏢 Company: Gigai Kripa Services
 - © 2026 Chandrabhan Shekhawat — Gigai Kripa Services
 
-If you use Social Stats in your own project or product, a credit back to the
+If you use Social Radar Suite in your own project or product, a credit back to the
 author / this repository is appreciated. ⭐ Stars help others find it.
 
 ---

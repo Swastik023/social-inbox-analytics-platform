@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -342,7 +342,7 @@ def terminate_relation(request, relation_id):
                    f'{rel.agency.name} ended the relationship'),
             body=reason or '(no reason given)',
             cta_url=f'{frontend}/u/agency' if actor_type != 'end_user' else f'{frontend}/admin/clients',
-            cta_label='Open Social Stats',
+            cta_label='Open Social Radar Suite',
             data={'kind': 'relation_terminated', 'relation_id': rel.id, 'reason': reason},
         )
     return Response(_serialize_relation(rel, perspective='owner' if actor_type == 'end_user' else 'agency'))

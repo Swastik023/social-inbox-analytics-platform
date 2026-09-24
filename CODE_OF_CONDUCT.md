@@ -3,7 +3,7 @@
 ## Our pledge
 
 We as members, contributors, and maintainers pledge to make participation in the
-Social Stats community a harassment-free experience for everyone, regardless of
+Social Radar Suite community a harassment-free experience for everyone, regardless of
 age, body size, disability, ethnicity, gender identity and expression, level of
 experience, nationality, personal appearance, race, religion, or sexual identity
 and orientation.
@@ -28,7 +28,7 @@ Examples of unacceptable behavior:
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the project maintainers at the project maintainers privately via GitHub ([open a private security advisory or contact @cbsshekhawat18-lab](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager)). All
+reported to the project maintainers at the project maintainers privately via GitHub ([open a private security advisory or contact @swastik-agnihotri](https://github.com/swastik-agnihotri/social-radar-suite)). All
 complaints will be reviewed and investigated promptly and fairly. Maintainers
 are obligated to respect the privacy and security of the reporter of any
 incident.

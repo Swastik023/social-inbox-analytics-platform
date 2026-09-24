@@ -1,4 +1,4 @@
-<!-- Thanks for contributing to Social Stats! -->
+<!-- Thanks for contributing to Social Radar Suite! -->
 
 ## What does this PR do?
 

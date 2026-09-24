@@ -1,5 +1,5 @@
 /* ============================================================================
- *  Social Stats — Social Media Management & Marketing Platform
+ *  Social Radar Suite — Social Media Management & Marketing Platform
  *  Author    : Chandrabhan Shekhawat
  *  Company   : Gigai Kripa Services
  *  Website   : https://gigaikripaservices.com/
@@ -44,7 +44,7 @@ style.textContent = `
     --text-secondary: #475569;
     --text-muted:     #94a3b8;
 
-    /* Brand — Social Stats (Cyan + Black) */
+    /* Brand — Social Radar Suite (Cyan + Black) */
     --blue:          #00B8DA;
     --blue-hover:    #009EC0;
     --blue-light:    #E0F9FF;

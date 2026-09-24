@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -329,7 +329,7 @@ class PlatformCredential(models.Model):
     connected_at = models.DateTimeField(auto_now_add=True)
     updated_at   = models.DateTimeField(auto_now=True)
 
-    # How the credential was provisioned. 'oauth' = via Social Stats-owned OAuth app.
+    # How the credential was provisioned. 'oauth' = via Social Radar Suite-owned OAuth app.
     # 'manual_token' = client pasted their own token from their dev account.
     # 'system_user' = Meta System User token (long-lived, ideal for prod).
     auth_method  = models.CharField(
@@ -368,7 +368,7 @@ class ManualCredentialExtras(models.Model):
     PlatformCredential.access_token / refresh_token already hold the per-account
     tokens; this row only adds the user's Google Cloud OAuth client identity
     so the existing token-refresh path can keep working without an
-    Social Stats-owned OAuth app. Encrypted at rest (same Fernet pipeline as tokens).
+    Social Radar Suite-owned OAuth app. Encrypted at rest (same Fernet pipeline as tokens).
     """
     credential          = models.OneToOneField(PlatformCredential, on_delete=models.CASCADE, related_name='manual_extras')
     oauth_client_id     = EncryptedTextField(blank=True)
@@ -1813,7 +1813,7 @@ class MediaAsset(models.Model):
 
 
 class UnifiedPost(models.Model):
-    """A post composed in Social Stats, fanned out to one or more platforms."""
+    """A post composed in Social Radar Suite, fanned out to one or more platforms."""
     client            = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='unified_posts')
     created_by        = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, related_name='created_unified_posts')
     title             = models.CharField(max_length=200, blank=True, help_text='Optional internal label')
@@ -2157,7 +2157,7 @@ ACTION_RESULT_CHOICES = [
 
 class ActionLog(models.Model):
     """
-    Append-only record of every write action Social Stats performs against a
+    Append-only record of every write action Social Radar Suite performs against a
     platform on behalf of a client. Used for compliance review and the
     "what did SocialStats do for me?" page.
     """
@@ -2227,7 +2227,7 @@ SMART_NOTIFICATION_EVENT_CHOICES = [
     ('relation_resumed',   'A client resumed your access'),
     ('agency_disconnected',     'A client disconnected from your agency'),
     ('client_account_deleted',  'A client deleted their account'),
-    ('client_joined',           'Your invited client joined Social Stats'),
+    ('client_joined',           'Your invited client joined Social Radar Suite'),
 ]
 
 NOTIFICATION_CHANNEL_CHOICES = [
@@ -2306,7 +2306,7 @@ class AIUsageLog(models.Model):
 
 
 class AIConversation(models.Model):
-    """A chat thread between a user and Social Stats."""
+    """A chat thread between a user and Social Radar Suite."""
     CONTEXT_CHOICES = [
         ("general",         "General"),
         ("client_specific", "Client-specific"),

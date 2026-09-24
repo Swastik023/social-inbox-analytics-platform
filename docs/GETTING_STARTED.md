@@ -1,15 +1,15 @@
 ---
-title: "Getting Started — Run Social Stats Locally"
-description: "Install and run the open-source Social Stats social media management platform on your own machine in minutes — Docker one-liner or manual Django + React setup, with seeded demo data and no external API keys required."
+title: "Getting Started — Run Social Radar Suite Locally"
+description: "Install and run the open-source Social Radar Suite social media management platform on your own machine in minutes — Docker one-liner or manual Django + React setup, with seeded demo data and no external API keys required."
 ---
 
-# Getting Started — Run Social Stats Locally
+# Getting Started — Run Social Radar Suite Locally
 
-This guide takes you from zero to a running **Social Stats** instance on your own
+This guide takes you from zero to a running **Social Radar Suite** instance on your own
 machine, with seeded demo data so the dashboards aren't empty. No external API
 keys are required for this walkthrough.
 
-> New here? Social Stats is an open-source social media management & marketing
+> New here? Social Radar Suite is an open-source social media management & marketing
 > platform (Django + React). See the [User Guide](USER_GUIDE.md) for what to do
 > once it's running.
 

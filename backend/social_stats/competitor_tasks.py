@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -14,7 +14,7 @@ metrics. Each helper is best-effort — missing config or unsupported
 platforms log + skip rather than crash the whole pass.
 
 Currently implemented:
-  - YouTube: public Channels.list via Social Stats's GOOGLE_API_KEY (no OAuth needed)
+  - YouTube: public Channels.list via Social Radar Suite's GOOGLE_API_KEY (no OAuth needed)
   - Facebook: public Page lookup via app token (META_APP_ID + secret)
 
 Stubs (logged + skipped — require additional setup):

@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -132,7 +132,7 @@ def _send_invite_email(inv: AgencyInviteFromUser):
         return
     inviter_name = inv.inviter_user.get_full_name() or inv.inviter_user.email
     link = f"{FRONTEND_URL}/agency-invite/{inv.token}"
-    subject = f"{inviter_name} ({inv.client.company}) wants you to manage their social on Social Stats"
+    subject = f"{inviter_name} ({inv.client.company}) wants you to manage their social on Social Radar Suite"
 
     granted = sorted([k for k, v in (inv.proposed_permissions or {}).items() if v])
     perm_chips = ''.join(
@@ -146,7 +146,7 @@ def _send_invite_email(inv: AgencyInviteFromUser):
     greeting = (
         f'<strong style="color:#0f172a;">{inviter_name}</strong> from '
         f'<strong style="color:#0f172a;">{inv.client.company}</strong> would like '
-        f'your agency to manage their social media on Social Stats.'
+        f'your agency to manage their social media on Social Radar Suite.'
     )
     body_html = (
         f'<div style="background:linear-gradient(135deg,#f0f9ff,#f8faff);border:1px solid rgba(0,215,255,0.18);'
@@ -315,7 +315,7 @@ def accept_agency_invite(request, token):
     agency = inv.target_agency
     if not agency:
         return Response({
-            'error': 'this invite was sent to an email — sign up your agency on Social Stats first, then re-open this link from your account',
+            'error': 'this invite was sent to an email — sign up your agency on Social Radar Suite first, then re-open this link from your account',
         }, status=409)
 
     membership = AgencyMembership.objects.filter(

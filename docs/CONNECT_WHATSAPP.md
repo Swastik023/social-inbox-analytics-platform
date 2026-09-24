@@ -1,11 +1,11 @@
 ---
 title: "Connect WhatsApp Business — Messaging, Campaigns & Bots"
-description: "Set up the WhatsApp Business module in Social Stats: inbox, contact lists, template campaigns, and the click-to-WhatsApp bot builder."
+description: "Set up the WhatsApp Business module in Social Radar Suite: inbox, contact lists, template campaigns, and the click-to-WhatsApp bot builder."
 ---
 
 # Connect WhatsApp Business
 
-Social Stats integrates WhatsApp Business through the **Pinbot Partners API v3**.
+Social Radar Suite integrates WhatsApp Business through the **Pinbot Partners API v3**.
 Everything below comes from
 [`whatsapp_service.py`](../backend/social_stats/whatsapp_service.py),
 [`whatsapp_webhook_views.py`](../backend/social_stats/whatsapp_webhook_views.py),
@@ -22,7 +22,7 @@ constructor arguments per call.
 ## 1. Sign up with the provider
 
 - Create a **Partners account** at **https://pinbot.ai**.
-- Provision a **WABA (WhatsApp Business Account)** per Social Stats Client.
+- Provision a **WABA (WhatsApp Business Account)** per Social Radar Suite Client.
 - Copy the **apikey** from your Pinbot dashboard.
 
 ## 2. Set the environment variables

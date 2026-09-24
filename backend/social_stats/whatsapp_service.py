@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -10,7 +10,7 @@
 PinbotService — wraps Pinbot Partners API v3 (https://partnersv1.pinbot.ai/v3).
 
 Auth: single header `apikey: YOUR_WABA_API_KEY` per WABA. One Pinbot key
-serves multiple `phone_number_id`s (one per Social Stats client).
+serves multiple `phone_number_id`s (one per Social Radar Suite client).
 
 Usage:
     svc = get_pinbot_for_client(client_id)

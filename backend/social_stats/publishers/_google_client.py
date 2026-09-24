@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -12,7 +12,7 @@ Shared Google REST helper used by YouTubePublisher and GMBPublisher.
 Responsibilities:
   - Refresh the access token when expired (using the user-supplied client_id /
     client_secret + refresh_token stored in ManualCredentialExtras, or the
-    Social Stats-owned OAuth app for the legacy `auth_method='oauth'` rows).
+    Social Radar Suite-owned OAuth app for the legacy `auth_method='oauth'` rows).
   - Send authenticated REST requests with consistent timeouts + error mapping.
 
 Error mapping (cheatsheet):
@@ -112,13 +112,13 @@ class GoogleClient:
 
     def _client_app_creds(self) -> tuple[str, str]:
         """Pull client_id/secret from ManualCredentialExtras (manual mode) or
-        the Social Stats-owned OAuth app (oauth mode)."""
+        the Social Radar Suite-owned OAuth app (oauth mode)."""
         cred = self.credential
         # Manual mode — extras row holds per-client app creds
         extras = getattr(cred, 'manual_extras', None)
         if extras and extras.oauth_client_id and extras.oauth_client_secret:
             return extras.oauth_client_id, extras.oauth_client_secret
-        # Social Stats-owned OAuth (analytics auth_method='oauth')
+        # Social Radar Suite-owned OAuth (analytics auth_method='oauth')
         from django.conf import settings
         return (
             getattr(settings, 'GOOGLE_CLIENT_ID', '') or '',

@@ -10,7 +10,7 @@ emailed PDF.
 
 ---
 
-**Subject:** Personal data breach notification — Article 33 GDPR — Social Stats — Ref {{ incident.reference_number }}
+**Subject:** Personal data breach notification — Article 33 GDPR — Social Radar Suite — Ref {{ incident.reference_number }}
 
 ## 1. Controller details
 

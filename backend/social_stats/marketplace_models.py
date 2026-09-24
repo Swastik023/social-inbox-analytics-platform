@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -7,7 +7,7 @@
 #  Released under the MIT License — see LICENSE. Keep this notice.
 # ============================================================================
 """
-Social Stats marketplace data models — of the two-sided marketplace build.
+Social Radar Suite marketplace data models — of the two-sided marketplace build.
 
 These live in their own module for readability but belong to the social_stats
 app (every model declares app_label='social_stats' explicitly). They are
@@ -241,7 +241,7 @@ class AgencyClientRelation(models.Model):
     terminated_by       = models.CharField(max_length=20, blank=True, choices=TERMINATED_BY_CHOICES)
     termination_reason  = models.TextField(blank=True)
 
-    # Pricing (only used if billing is mediated by Social Stats; otherwise null)
+    # Pricing (only used if billing is mediated by Social Radar Suite; otherwise null)
     monthly_fee  = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     fee_currency = models.CharField(max_length=3, default='INR')
 
@@ -488,7 +488,7 @@ class AgencyInviteFromUser(models.Model):
         Agency, on_delete=models.SET_NULL, null=True, blank=True,
         related_name='received_user_invites',
     )
-    target_agency_email = models.EmailField(blank=True)  # if agency not on Social Stats yet
+    target_agency_email = models.EmailField(blank=True)  # if agency not on Social Radar Suite yet
 
     proposed_permissions = models.JSONField(default=default_relation_permissions, blank=True)
     message              = models.TextField(blank=True)

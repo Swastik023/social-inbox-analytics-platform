@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -14,7 +14,7 @@ named services (BusinessInformation, AccountManagement, Notifications, Q&A,
 etc.). The Local Posts CRUD endpoint still lives on the legacy host
 `mybusiness.googleapis.com/v4/...` for partners that retained access. New
 direct-developer access is restricted; agencies running through partner
-programs continue to have full posting capability. Social Stats's manual-token mode
+programs continue to have full posting capability. Social Radar Suite's manual-token mode
 inherits whatever access the user's own Google Cloud project has.
 
 Supported actions:

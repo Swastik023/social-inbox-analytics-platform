@@ -1,6 +1,6 @@
 ---
 title: "Going Live — Production Checklist & Platform App Review"
-description: "Deploy Social Stats to production: environment checklist, TLS, and the exact OAuth scopes plus app-review steps for Meta, Google and LinkedIn."
+description: "Deploy Social Radar Suite to production: environment checklist, TLS, and the exact OAuth scopes plus app-review steps for Meta, Google and LinkedIn."
 ---
 
 # Going Live — Platform App Review & Production Checklist
@@ -15,7 +15,7 @@ scopes and the official review process for each platform.
 
 ## The exact scopes you're applying for
 
-These are the scopes Social Stats requests in code — apply for exactly these:
+These are the scopes Social Radar Suite requests in code — apply for exactly these:
 
 | Platform | Scopes (Quick Connect) |
 |---|---|
@@ -35,7 +35,7 @@ These are the scopes Social Stats requests in code — apply for exactly these:
 2. **Business Verification** of your Meta Business account.
    - Docs: https://www.facebook.com/business/help/2058515294227817
 3. **Switch the app from Development to Live** (App Dashboard → top toggle).
-4. **Privacy Policy URL** and **Data Deletion** are required. Social Stats already
+4. **Privacy Policy URL** and **Data Deletion** are required. Social Radar Suite already
    exposes the callbacks:
    - Data deletion callback: `/api/meta/data-deletion-callback/`
    - Deauthorize callback: `/api/meta/deauth-callback/`

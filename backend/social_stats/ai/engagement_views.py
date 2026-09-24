@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -20,7 +20,7 @@ Mounted at:
 
 The endpoints can take EITHER raw text (`message` / `conversation_id`) or
 inbox-model IDs (`message_id` / `conversation_id` / `review_id`) and resolve
-to the underlying Social Stats Message / Conversation / UnifiedReview rows. Tenant
+to the underlying Social Radar Suite Message / Conversation / UnifiedReview rows. Tenant
 isolation enforced — a user can only AI-process resources for their own client.
 """
 from __future__ import annotations
@@ -44,7 +44,7 @@ logger = logging.getLogger(__name__)
 
 
 # ─────────────────────────────────────────────────────────────────────────
-# Resolver helpers — accept text OR Social Stats model IDs
+# Resolver helpers — accept text OR Social Radar Suite model IDs
 # ─────────────────────────────────────────────────────────────────────────
 
 def _resolve_message(*, client, message_id=None, conversation_id=None, fallback_text=''):

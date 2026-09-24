@@ -1,6 +1,6 @@
-# Contributing to Social Stats
+# Contributing to Social Radar Suite
 
-Thanks for your interest in improving **Social Stats**, an open-source social
+Thanks for your interest in improving **Social Radar Suite**, an open-source social
 media management and marketing platform. Contributions of all sizes are welcome
 — bug reports, docs, tests, and features.
 

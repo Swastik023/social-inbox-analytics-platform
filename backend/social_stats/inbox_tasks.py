@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -328,10 +328,10 @@ def sync_linkedin_inbox(self, client_id: int):
 
     For this task, this task walks UnifiedPost.publish_logs for LinkedIn-published
     posts in the last N days and pulls comments for each. If the org has zero
-    Social Stats-published posts yet, the inbox stays empty for LinkedIn.
+    Social Radar Suite-published posts yet, the inbox stays empty for LinkedIn.
 
     A future iteration can expand to /rest/posts?author={urn} to discover
-    posts published outside of Social Stats.
+    posts published outside of Social Radar Suite.
     """
     cred = _active_cred(client_id, 'linkedin')
     if not cred:

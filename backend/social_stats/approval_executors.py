@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -153,7 +153,7 @@ def _exec_reply(approval) -> tuple[bool, str, dict]:
         conversation=conv,
         platform_message_id=getattr(result, 'platform_post_id', '') or '',
         direction='outbound',
-        author_name=approval.requested_by.get_full_name() or approval.requested_by.email or 'Social Stats',
+        author_name=approval.requested_by.get_full_name() or approval.requested_by.email or 'Social Radar Suite',
         author_handle=approval.requested_by.email or '',
         content=text,
         sent_at=timezone.now(),

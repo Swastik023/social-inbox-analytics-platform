@@ -1,4 +1,4 @@
-# robots.txt for Social Stats
+# robots.txt for Social Radar Suite
 
 User-agent: *
 Allow: /

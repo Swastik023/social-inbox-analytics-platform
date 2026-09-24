@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-### Changed — Social Stats is now free & open source (MIT)
+### Changed — Social Radar Suite is now free & open source (MIT)
 
 Payments and paid plans were removed; the product is free and self-hostable
 under the MIT License (Copyright © 2026 Chandrabhan Shekhawat — Gigai Kripa

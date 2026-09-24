@@ -1,6 +1,6 @@
 ---
 title: "Configuration Reference — Every Environment Variable"
-description: "Every environment variable Social Stats reads: database, Redis/Celery, OAuth apps for Facebook, Instagram, YouTube, LinkedIn and Google Business, WhatsApp, email, AI models, and security settings."
+description: "Every environment variable Social Radar Suite reads: database, Redis/Celery, OAuth apps for Facebook, Instagram, YouTube, LinkedIn and Google Business, WhatsApp, email, AI models, and security settings."
 ---
 
 # Configuration Reference
@@ -98,7 +98,7 @@ Get these from [linkedin.com/developers](https://www.linkedin.com/developers).
 | `EMAIL_PORT` | For email | `587` | SMTP port. |
 | `EMAIL_HOST_USER` | For email | placeholder | SMTP username. For Gmail, enable 2FA → App Passwords. |
 | `EMAIL_HOST_PASSWORD` | For email | placeholder | SMTP password / Gmail App Password. |
-| `DEFAULT_FROM_EMAIL` | No | `Social Stats <noreply@example.com>` | From address on outgoing email. |
+| `DEFAULT_FROM_EMAIL` | No | `Social Radar Suite <noreply@example.com>` | From address on outgoing email. |
 
 > Without email config, the app still runs; email-dependent features (report
 > delivery, some notifications) simply won't send.

@@ -1,4 +1,4 @@
-title: Social Stats — Open-Source Social Media Management Platform
+title: Social Radar Suite — Open-Source Social Media Management Platform
 description: >-
   Open-source social media management & marketing platform — scheduler, content
   calendar, cross-platform analytics dashboards, unified inbox, click-to-WhatsApp
@@ -7,7 +7,7 @@ description: >-
 
 # Canonical site location — required for correct canonical URLs, Open Graph
 # tags (jekyll-seo-tag) and absolute links in sitemap.xml (jekyll-sitemap).
-url: https://cbsshekhawat18-lab.github.io
+url: https://swastik-agnihotri.github.io
 baseurl: /social-stats-social-media-manager
 
 lang: en
@@ -17,7 +17,7 @@ logo: /screenshot.png
 image: /screenshot.png
 
 github:
-  repository_url: https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager
+  repository_url: https://github.com/swastik-agnihotri/social-radar-suite
 
 theme: jekyll-theme-cayman
 plugins:

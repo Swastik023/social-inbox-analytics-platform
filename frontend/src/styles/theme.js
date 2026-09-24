@@ -1,12 +1,12 @@
 /* ============================================================================
- *  Social Stats — Social Media Management & Marketing Platform
+ *  Social Radar Suite — Social Media Management & Marketing Platform
  *  Author    : Chandrabhan Shekhawat
  *  Company   : Gigai Kripa Services
  *  Website   : https://gigaikripaservices.com/
  *  Copyright (c) 2026 Chandrabhan Shekhawat / Gigai Kripa Services.
  *  Released under the MIT License — see LICENSE. Keep this notice.
  * ========================================================================== */
-/* Social Stats Design System — shared constants for inline styles */
+/* Social Radar Suite Design System — shared constants for inline styles */
 
 export const colors = {
   primary: '#00B8DA',

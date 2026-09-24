@@ -1,24 +1,24 @@
 ---
-title: "Social Stats vs Hootsuite, Buffer & Sprout Social"
-description: "A factual comparison of open-source, self-hosted Social Stats against closed-source SaaS social media management tools — pricing, data ownership, features, and when each is the right choice."
+title: "Social Radar Suite vs Hootsuite, Buffer & Sprout Social"
+description: "A factual comparison of open-source, self-hosted Social Radar Suite against closed-source SaaS social media management tools — pricing, data ownership, features, and when each is the right choice."
 ---
 
-# How Social Stats Compares
+# How Social Radar Suite Compares
 
-A fair, factual comparison between **Social Stats** (open-source, self-hosted) and
+A fair, factual comparison between **Social Radar Suite** (open-source, self-hosted) and
 typical **closed-source SaaS** social media management tools such as Hootsuite,
 Buffer, and Sprout Social.
 
-> Honesty note: Social Stats is **early-stage**. The table compares *structural*
+> Honesty note: Social Radar Suite is **early-stage**. The table compares *structural*
 > properties (licensing, hosting, data ownership) and the feature **categories**
-> Social Stats actually ships — verified against this codebase. Competitor
+> Social Radar Suite actually ships — verified against this codebase. Competitor
 > capabilities vary by plan and change over time; check their official sites for
 > exact, current details before making a decision. We don't claim feature
 > superiority over mature commercial products.
 
 ## Structural comparison
 
-| | **Social Stats** | Typical SaaS (Hootsuite / Buffer / Sprout Social) |
+| | **Social Radar Suite** | Typical SaaS (Hootsuite / Buffer / Sprout Social) |
 |---|---|---|
 | License | **Open source (MIT)** | Proprietary |
 | Hosting | **Self-host** (your servers/cloud) | Vendor cloud only |
@@ -28,7 +28,7 @@ Buffer, and Sprout Social.
 | Customizable | **Fully** (it's your code) | Limited to vendor features |
 | Maturity / support | Early-stage, community | Mature, commercial SLAs & support |
 
-## Feature categories Social Stats ships
+## Feature categories Social Radar Suite ships
 
 These are present in this codebase (see the linked docs):
 
@@ -41,7 +41,7 @@ These are present in this codebase (see the linked docs):
 - **AI assistant** + brand-voice training, insights, forecasts (Anthropic Claude)
 - Multi-tenant **agency / end-user** account model with per-client workspaces
 
-## When Social Stats is a good fit
+## When Social Radar Suite is a good fit
 
 - You want to **self-host** and **own your data** and platform tokens.
 - You're an **agency or team** managing multiple brands and want per-client

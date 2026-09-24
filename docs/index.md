@@ -1,15 +1,15 @@
 ---
-title: "Social Stats — Open-Source Social Media Management Platform"
+title: "Social Radar Suite — Open-Source Social Media Management Platform"
 description: "Open-source social media management & marketing platform — schedule posts, content calendar, cross-platform analytics dashboards, unified inbox, click-to-WhatsApp bot builder, and an AI assistant. Self-hosted Django + React. A Hootsuite / Buffer / Sprout Social alternative."
 ---
 
-# Social Stats — Open-Source Social Media Management Platform
+# Social Radar Suite — Open-Source Social Media Management Platform
 
-**Social Stats** is an open-source, self-hostable **social media management** and
+**Social Radar Suite** is an open-source, self-hostable **social media management** and
 marketing platform for agencies and teams. It's an open alternative to Hootsuite,
 Buffer, and Sprout Social, built on **Django + React**.
 
-[⭐ Star the project on GitHub »](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager)
+[⭐ Star the project on GitHub »](https://github.com/swastik-agnihotri/social-radar-suite)
 
 ## What it does
 
@@ -28,9 +28,9 @@ Buffer, and Sprout Social, built on **Django + React**.
 
 ## Self-hosting
 
-Social Stats runs on Django 4.2 + Django REST Framework, Celery + Redis, Django
+Social Radar Suite runs on Django 4.2 + Django REST Framework, Celery + Redis, Django
 Channels, PostgreSQL, and a React 18 frontend. See the
-[installation guide on GitHub](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager#self-hosting--installation-local-dev).
+[installation guide on GitHub](https://github.com/swastik-agnihotri/social-radar-suite#self-hosting--installation-local-dev).
 
 ```bash
 python manage.py migrate
@@ -51,9 +51,9 @@ python manage.py runserver
 
 ## Links
 
-- [Source code & README](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager)
-- [Contributing guide](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/blob/main/CONTRIBUTING.md)
-- [Report an issue](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/issues)
+- [Source code & README](https://github.com/swastik-agnihotri/social-radar-suite)
+- [Contributing guide](https://github.com/swastik-agnihotri/social-radar-suite/blob/main/CONTRIBUTING.md)
+- [Report an issue](https://github.com/swastik-agnihotri/social-radar-suite/issues)
 
 ---
 

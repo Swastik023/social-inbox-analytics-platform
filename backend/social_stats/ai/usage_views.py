@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -233,7 +233,7 @@ def usage_quota(request):
 
 
 # ─────────────────────────────────────────────────────────────────────────
-# 6. GET /ai/v2/audit/  — client-visible "What did Social Stats do for me?"
+# 6. GET /ai/v2/audit/  — client-visible "What did Social Radar Suite do for me?"
 # ─────────────────────────────────────────────────────────────────────────
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])

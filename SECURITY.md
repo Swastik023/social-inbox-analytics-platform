@@ -6,7 +6,7 @@ and the public. This document covers our **Vulnerability Disclosure Program
 
 ## Reporting a vulnerability
 
-**Preferred channel:** [GitHub private vulnerability reporting](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/security/advisories/new)
+**Preferred channel:** [GitHub private vulnerability reporting](https://github.com/swastik-agnihotri/social-radar-suite/security/advisories/new)
 (Security tab → *Report a vulnerability*). Reports stay private between you
 and the maintainers until a fix ships.
 
@@ -65,8 +65,8 @@ The SLA starts when triage confirms the issue is reproducible AND in-scope.
 For Critical and High issues we cut a hotfix release outside of the regular
 deployment cadence. The following channels carry security release notes:
 
-- [GitHub security advisories](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/security/advisories) — published after the fix
-- [GitHub releases](https://github.com/cbsshekhawat18-lab/social-stats-social-media-manager/releases) — hotfix release notes flag security fixes
+- [GitHub security advisories](https://github.com/swastik-agnihotri/social-radar-suite/security/advisories) — published after the fix
+- [GitHub releases](https://github.com/swastik-agnihotri/social-radar-suite/releases) — hotfix release notes flag security fixes
 
 ## How we find vulnerabilities ourselves
 

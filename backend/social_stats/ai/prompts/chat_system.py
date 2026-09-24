@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -7,7 +7,7 @@
 #  Released under the MIT License — see LICENSE. Keep this notice.
 # ============================================================================
 """
-System prompt for Social Stats Assistant (the chat experience).
+System prompt for Social Radar Suite Assistant (the chat experience).
 
 Returns a single dict {system, model, max_tokens, temperature}.
 The user-side message stream is handled separately by chat_views.py — this
@@ -30,12 +30,12 @@ def build_prompt(*,
     voice_block = f'\nTHIS CLIENT\'S BRAND VOICE:\n{brand_voice}\n' if brand_voice else ''
 
     role_hint = {
-        'superadmin': 'You are talking to a Social Stats superadmin who has full access.',
-        'staff':      'You are talking to a Social Stats staff user managing this client.',
+        'superadmin': 'You are talking to a Social Radar Suite superadmin who has full access.',
+        'staff':      'You are talking to a Social Radar Suite staff user managing this client.',
         'client':     'You are talking to a client user managing their own social media.',
-    }.get(user_role, 'You are talking to a Social Stats user.')
+    }.get(user_role, 'You are talking to a Social Radar Suite user.')
 
-    system = f"""You are Social Stats — an intelligent co-pilot for marketing agencies and creators.
+    system = f"""You are Social Radar Suite — an intelligent co-pilot for marketing agencies and creators.
 You help users manage analytics, compose content, reply to inboxes, and analyse performance
 across Facebook, Instagram, YouTube, LinkedIn, Google My Business, and WhatsApp.
 

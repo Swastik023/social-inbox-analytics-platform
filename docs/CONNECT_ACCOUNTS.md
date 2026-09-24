@@ -1,11 +1,11 @@
 ---
 title: "Connect Social Accounts — Facebook, Instagram, YouTube, LinkedIn, Google Business"
-description: "How to connect Facebook, Instagram, YouTube, LinkedIn and Google Business Profile accounts to self-hosted Social Stats — OAuth Quick Connect or the Manual Setup wizard with your own tokens."
+description: "How to connect Facebook, Instagram, YouTube, LinkedIn and Google Business Profile accounts to self-hosted Social Radar Suite — OAuth Quick Connect or the Manual Setup wizard with your own tokens."
 ---
 
 # Connect Social Accounts
 
-How to connect each social platform to Social Stats. All redirect URIs, scopes,
+How to connect each social platform to Social Radar Suite. All redirect URIs, scopes,
 and env var names below are taken **directly from the code**
 ([`oauth_views.py`](../backend/social_stats/oauth_views.py),
 [`urls.py`](../backend/social_stats/urls.py),
@@ -13,7 +13,7 @@ and env var names below are taken **directly from the code**
 
 ## Two ways to connect
 
-Social Stats has two connection paths, controlled by the `OAUTH_APPS_APPROVED`
+Social Radar Suite has two connection paths, controlled by the `OAUTH_APPS_APPROVED`
 flag (see [CONFIGURATION.md](CONFIGURATION.md)):
 
 1. **Quick Connect (OAuth)** — one-click "Connect" buttons. The app holds a
@@ -175,7 +175,7 @@ LINKEDIN_REDIRECT_URI=http://localhost:8000/api/oauth/linkedin/callback/
 ### 5. Manual Setup alternative
 The wizard has users generate a **60-day access token** in their LinkedIn app
 (scopes `r_organization_social`, `rw_organization_admin`) and paste it with their
-**Organization ID**. Social Stats alerts 7 days before the token expires.
+**Organization ID**. Social Radar Suite alerts 7 days before the token expires.
 
 ---
 

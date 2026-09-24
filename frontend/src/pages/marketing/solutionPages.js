@@ -1,5 +1,5 @@
 /* ============================================================================
- *  Social Stats — Social Media Management & Marketing Platform
+ *  Social Radar Suite — Social Media Management & Marketing Platform
  *  Author    : Chandrabhan Shekhawat
  *  Company   : Gigai Kripa Services
  *  Website   : https://gigaikripaservices.com/
@@ -178,7 +178,7 @@ export const solutionPages = {
     stripes: [
       { eyebrow: 'CTWA → CRM',
         title: 'Capture every lead, automatically',
-        description: 'CTWA ad clicks land in a Social Stats bot flow. The bot qualifies (budget, area, when), captures contact, pushes to your CRM with full attribution.',
+        description: 'CTWA ad clicks land in a Social Radar Suite bot flow. The bot qualifies (budget, area, when), captures contact, pushes to your CRM with full attribution.',
         bullets: [
           'Pre-built lead-capture flow (clone in 2 clicks)',
           'AI takeover for off-script questions',
@@ -198,7 +198,7 @@ export const solutionPages = {
         demo: AutomationsPreview },
       { eyebrow: 'Listing posts',
         title: 'AI-written property descriptions',
-        description: 'Paste the listing. Social Stats writes the post in your brand voice — for IG carousel, FB, LinkedIn — auto-formatted per platform.',
+        description: 'Paste the listing. Social Radar Suite writes the post in your brand voice — for IG carousel, FB, LinkedIn — auto-formatted per platform.',
         bullets: [
           'Property listing carousels (10 slides ready)',
           'AI property descriptions (highlights + amenities)',
@@ -358,7 +358,7 @@ export const solutionPages = {
       ],
     },
     quote: {
-      quote: 'Reservations from WhatsApp are 35% of our weekly cover. Social Stats runs the bot end-to-end.',
+      quote: 'Reservations from WhatsApp are 35% of our weekly cover. Social Radar Suite runs the bot end-to-end.',
       author: 'Aisha Khan', role: 'Marketing Manager, Lumen',
       gradient: 'linear-gradient(135deg, #fbbf24, #f472b6)',
     },
@@ -395,7 +395,7 @@ export const solutionPages = {
         demo: AnalyticsPreview },
       { eyebrow: 'Brand deals',
         title: 'Brand-deal tracking + invoicing',
-        description: 'Log every deal (brand, deliverables, payment). Social Stats tracks payment status, generates GST-compliant invoices, nudges late payers.',
+        description: 'Log every deal (brand, deliverables, payment). Social Radar Suite tracks payment status, generates GST-compliant invoices, nudges late payers.',
         bullets: [
           'Brand-deal CRM (status, payment, deliverables)',
           'GST-compliant invoice generation',
@@ -415,7 +415,7 @@ export const solutionPages = {
         demo: ComposerPreview },
     ],
     quote: {
-      quote: 'I post the same thing 3x and Social Stats formats it perfectly for each platform. Saves me 5 hours a week.',
+      quote: 'I post the same thing 3x and Social Radar Suite formats it perfectly for each platform. Saves me 5 hours a week.',
       author: 'Vikram Joshi', role: 'Creator (385K subs)',
       gradient: 'linear-gradient(135deg, #f472b6, #fbbf24)',
     },
@@ -444,7 +444,7 @@ export const solutionPages = {
     stripes: [
       { eyebrow: 'Catalog sync',
         title: 'Product catalog, sync once',
-        description: 'Connect Shopify or WooCommerce. Social Stats syncs to IG Shop + FB Catalog + WhatsApp catalog automatically.',
+        description: 'Connect Shopify or WooCommerce. Social Radar Suite syncs to IG Shop + FB Catalog + WhatsApp catalog automatically.',
         bullets: [
           'Shopify + WooCommerce integration',
           'Auto-sync to IG Shop + FB Catalog + WA catalog',

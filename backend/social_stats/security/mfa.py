@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -51,7 +51,7 @@ from ..fields import EncryptedTextField
 logger = logging.getLogger(__name__)
 
 
-MFA_ISSUER = 'Social Stats'
+MFA_ISSUER = 'Social Radar Suite'
 BACKUP_CODE_COUNT = 10
 MFA_TOKEN_SALT = 'socialstats-mfa-handshake'
 MFA_TOKEN_TTL  = 300  # seconds

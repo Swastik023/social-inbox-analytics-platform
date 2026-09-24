@@ -1,5 +1,5 @@
 /* ============================================================================
- *  Social Stats — Social Media Management & Marketing Platform
+ *  Social Radar Suite — Social Media Management & Marketing Platform
  *  Author    : Chandrabhan Shekhawat
  *  Company   : Gigai Kripa Services
  *  Website   : https://gigaikripaservices.com/
@@ -101,7 +101,7 @@ export const productPages = {
       ],
     },
     quote: {
-      quote: 'I used to spend Sunday evenings exporting CSVs from 5 platforms. Now I just open Social Stats.',
+      quote: 'I used to spend Sunday evenings exporting CSVs from 5 platforms. Now I just open Social Radar Suite.',
       author: 'Aditya Rao', role: 'Founder, Halcyon',
       gradient: 'linear-gradient(135deg, #00CCF5, #8b5cf6)',
     },
@@ -113,7 +113,7 @@ export const productPages = {
   // ── 2. Composer ──────────────────────────────────────────────────────────
   'composer': {
     title: 'Multi-platform composer',
-    description: 'Write one post. Social Stats auto-formats for Facebook, Instagram, LinkedIn, YouTube. Schedule, queue, or recur.',
+    description: 'Write one post. Social Radar Suite auto-formats for Facebook, Instagram, LinkedIn, YouTube. Schedule, queue, or recur.',
     eyebrow: 'Composer',
     heroTitle: 'Write once, publish 5x',
     heroSubtitle: 'One editor for every platform. Auto-resize images, platform-aware character counts, AI-generated alt text. Schedule once, publish everywhere.',
@@ -122,7 +122,7 @@ export const productPages = {
       {
         eyebrow: 'Smart formatting',
         title: 'Each platform, formatted right',
-        description: 'Social Stats knows IG hates long links, Facebook rewards a strong hook, LinkedIn wants paragraphs. We format your draft per-platform automatically.',
+        description: 'Social Radar Suite knows IG hates long links, Facebook rewards a strong hook, LinkedIn wants paragraphs. We format your draft per-platform automatically.',
         bullets: [
           'Per-platform character + media-spec preview',
           'Auto-cropping for IG square, Story, Reel, FB landscape',
@@ -146,7 +146,7 @@ export const productPages = {
       {
         eyebrow: 'AI write',
         title: 'AI drafts, you polish',
-        description: 'Stuck staring at a blank draft? Hit Cmd+K. Social Stats writes the first version tuned to your brand voice in 3 seconds.',
+        description: 'Stuck staring at a blank draft? Hit Cmd+K. Social Radar Suite writes the first version tuned to your brand voice in 3 seconds.',
         bullets: [
           'Generate 3 variants per draft',
           'Tuned to your brand voice (configurable)',
@@ -199,7 +199,7 @@ export const productPages = {
       {
         eyebrow: 'AI replies',
         title: '3 reply suggestions, one click',
-        description: 'Social Stats drafts three options tuned to your brand voice. Pick one, edit if needed, send. Done in 5 seconds.',
+        description: 'Social Radar Suite drafts three options tuned to your brand voice. Pick one, edit if needed, send. Done in 5 seconds.',
         bullets: [
           'Drafts in your brand voice',
           'Detects question type (price / availability / complaint)',
@@ -251,7 +251,7 @@ export const productPages = {
       {
         eyebrow: 'Templates',
         title: 'Submit, track, and reuse',
-        description: 'Submit templates to Meta from Social Stats. Track approval status. Build campaigns the moment your template is approved.',
+        description: 'Submit templates to Meta from Social Radar Suite. Track approval status. Build campaigns the moment your template is approved.',
         bullets: [
           'In-app template editor with live preview',
           'Submit + track approval status from Meta',
@@ -263,7 +263,7 @@ export const productPages = {
       {
         eyebrow: 'Campaigns',
         title: 'Broadcast to thousands, sanely',
-        description: 'Pick a template, target a segment, schedule the send. Social Stats respects Meta tier limits + WhatsApp quality rating automatically.',
+        description: 'Pick a template, target a segment, schedule the send. Social Radar Suite respects Meta tier limits + WhatsApp quality rating automatically.',
         bullets: [
           'Segment by tags + custom fields',
           'Schedule with Meta tier-aware throttling',
@@ -354,7 +354,7 @@ export const productPages = {
       columns: 4,
       items: [
         { icon: Workflow,  title: 'Visual canvas',     description: 'Drag-drop with auto-layout.' },
-        { icon: Bot,       title: 'AI chat node',      description: 'Hand the conversation to Social Stats.' },
+        { icon: Bot,       title: 'AI chat node',      description: 'Hand the conversation to Social Radar Suite.' },
         { icon: GitBranch, title: 'Conditional branches', description: 'IF/ELSE on any variable.' },
         { icon: Sparkles,  title: 'Generate with AI',  description: 'Describe a flow, get a draft.' },
       ],
@@ -369,17 +369,17 @@ export const productPages = {
 
   // ── 6. AI Studio ─────────────────────────────────────────────────────────
   'ai': {
-    title: 'Social Stats Studio',
-    description: 'AI-powered content generation, brand voice, replies, insights, forecasting — across every Social Stats module.',
+    title: 'Social Radar Suite Studio',
+    description: 'AI-powered content generation, brand voice, replies, insights, forecasting — across every Social Radar Suite module.',
     eyebrow: 'AI Studio',
-    heroTitle: 'AI features powered by Social Stats',
-    heroSubtitle: 'Social Stats isn\'t an "AI feature". It\'s an AI-native product. Social Stats shows up wherever you\'re stuck — composer, inbox, reports, bot builder, analytics.',
+    heroTitle: 'AI features powered by Social Radar Suite',
+    heroSubtitle: 'Social Radar Suite isn\'t an "AI feature". It\'s an AI-native product. Social Radar Suite shows up wherever you\'re stuck — composer, inbox, reports, bot builder, analytics.',
     heroDemo: AIChatDemo,
     stripes: [
       {
         eyebrow: 'Brand voice',
         title: 'Tuned to YOUR business',
-        description: 'Train a brand voice once with 5 sample posts. Social Stats uses it for every AI generation thereafter.',
+        description: 'Train a brand voice once with 5 sample posts. Social Radar Suite uses it for every AI generation thereafter.',
         bullets: [
           'Train with 5-10 sample posts (3 minutes)',
           'Per-client brand voice (agencies)',
@@ -403,7 +403,7 @@ export const productPages = {
       {
         eyebrow: 'Insights + forecasting',
         title: 'Predictions you can act on',
-        description: 'Social Stats watches your metrics + content and surfaces what\'s working, what\'s slipping, and what to do next.',
+        description: 'Social Radar Suite watches your metrics + content and surfaces what\'s working, what\'s slipping, and what to do next.',
         bullets: [
           'Engagement-drop alerts with hypotheses',
           'Forecast next-30-day reach',
@@ -433,17 +433,17 @@ export const productPages = {
 
   // ── 7. AI Assistant ──────────────────────────────────────────────────────
   'ai-assistant': {
-    title: 'Social Stats Assistant',
-    description: 'Press Cmd+J anywhere. Talk to your marketing data. Social Stats with tool use — creates posts, schedules, generates reports.',
+    title: 'Social Radar Suite Assistant',
+    description: 'Press Cmd+J anywhere. Talk to your marketing data. Social Radar Suite with tool use — creates posts, schedules, generates reports.',
     eyebrow: 'AI Assistant',
     heroTitle: 'Talk to your marketing data',
-    heroSubtitle: 'Press Cmd+J anywhere in Social Stats. Ask questions, request actions, get reports. Social Stats has tool use — it actually clicks the buttons for you.',
+    heroSubtitle: 'Press Cmd+J anywhere in Social Radar Suite. Ask questions, request actions, get reports. Social Radar Suite has tool use — it actually clicks the buttons for you.',
     heroDemo: AIChatDemo,
     stripes: [
       {
         eyebrow: 'Tool use',
-        title: 'Social Stats with hands',
-        description: 'Social Stats doesn\'t just answer — it does. "Schedule 3 Diwali posts for Acme Realty" → it drafts the posts, schedules them, and shows you the calendar.',
+        title: 'Social Radar Suite with hands',
+        description: 'Social Radar Suite doesn\'t just answer — it does. "Schedule 3 Diwali posts for Acme Realty" → it drafts the posts, schedules them, and shows you the calendar.',
         bullets: [
           'Compose + schedule posts',
           'Run analytics queries on your behalf',
@@ -455,7 +455,7 @@ export const productPages = {
       {
         eyebrow: 'Cmd+J anywhere',
         title: 'One shortcut, every screen',
-        description: 'On the dashboard, in the composer, inside a bot flow — Cmd+J brings Social Stats with the right context.',
+        description: 'On the dashboard, in the composer, inside a bot flow — Cmd+J brings Social Radar Suite with the right context.',
         bullets: [
           'Knows what page you\'re on',
           'Knows which client you\'re viewing',
@@ -470,7 +470,7 @@ export const productPages = {
       subtitle: 'Tenant-scoped. Audit-logged. No training on your data.',
       columns: 3,
       items: [
-        { icon: Shield, title: 'Tenant scope',  description: 'Social Stats only sees the workspace you\'re in.' },
+        { icon: Shield, title: 'Tenant scope',  description: 'Social Radar Suite only sees the workspace you\'re in.' },
         { icon: Zap,    title: 'Confirms before action', description: 'Destructive actions need your OK.' },
         { icon: Check,  title: 'Audit log',    description: 'Every tool call recorded for compliance.' },
       ],
@@ -489,13 +489,13 @@ export const productPages = {
     description: 'Auto-generated PDF reports with AI narration, scheduled delivery, white-label branding for agencies.',
     eyebrow: 'Reports',
     heroTitle: 'Reports that write themselves',
-    heroSubtitle: 'Schedule a monthly report once. Social Stats pulls the data, AI writes the narrative, white-labels the PDF, and emails your client. You read the PDF on Sunday morning.',
+    heroSubtitle: 'Schedule a monthly report once. Social Radar Suite pulls the data, AI writes the narrative, white-labels the PDF, and emails your client. You read the PDF on Sunday morning.',
     heroDemo: ReportsPreview,
     stripes: [
       {
         eyebrow: 'AI-narrated',
         title: 'Numbers + the story behind them',
-        description: 'Stop sending clients raw screenshots. Social Stats writes the narrative — what worked, why, and what to do next month.',
+        description: 'Stop sending clients raw screenshots. Social Radar Suite writes the narrative — what worked, why, and what to do next month.',
         bullets: [
           'AI summary section per platform',
           'Top-post + best-time-to-post highlights',
@@ -519,7 +519,7 @@ export const productPages = {
       {
         eyebrow: 'Scheduling',
         title: 'Set it once, ship monthly',
-        description: 'Configure recipients, frequency, and start date. Done. Social Stats emails the report on the 1st of every month.',
+        description: 'Configure recipients, frequency, and start date. Done. Social Radar Suite emails the report on the 1st of every month.',
         bullets: [
           'Weekly, monthly, quarterly, or custom',
           'Multiple recipients per report',

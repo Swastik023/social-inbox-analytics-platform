@@ -1,6 +1,6 @@
 ---
 title: "FAQ & Troubleshooting"
-description: "Answers to common questions about self-hosting Social Stats — database setup, demo logins, CORS, Celery/Redis, AI configuration, and more."
+description: "Answers to common questions about self-hosting Social Radar Suite — database setup, demo logins, CORS, Celery/Redis, AI configuration, and more."
 ---
 
 # FAQ & Troubleshooting
@@ -8,9 +8,9 @@ description: "Answers to common questions about self-hosting Social Stats — da
 Common problems and their fixes. See [CONFIGURATION.md](CONFIGURATION.md) for any
 variable mentioned here.
 
-## What is Social Stats, and who is it for?
+## What is Social Radar Suite, and who is it for?
 
-Social Stats is an **open-source social media management & marketing platform**
+Social Radar Suite is an **open-source social media management & marketing platform**
 for **agencies and in-house teams** who manage multiple brands across Facebook,
 Instagram, YouTube, LinkedIn, and Google Business — plus WhatsApp Business. It
 combines a post **scheduler + content calendar**, cross-platform **analytics
@@ -65,7 +65,7 @@ insights, the Cmd/Ctrl+J assistant, AI-narrated reports) are disabled — but th
 rest of the app works normally.
 
 ### Tokens expiring / "token expired" warnings
-- **Google** uses `access_type=offline` + a refresh token; Social Stats
+- **Google** uses `access_type=offline` + a refresh token; Social Radar Suite
   auto-refreshes the access token. Keep the refresh token valid (don't revoke it).
 - **LinkedIn** access tokens last ~60 days; the app warns 7 days before expiry —
   regenerate the token and paste it again.

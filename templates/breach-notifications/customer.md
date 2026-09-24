@@ -4,11 +4,11 @@
 
 ---
 
-**Subject:** Important security update about your Social Stats account
+**Subject:** Important security update about your Social Radar Suite account
 
 Hi {{ customer.first_name | "there" }},
 
-We're writing to let you know about a security incident affecting your Social Stats
+We're writing to let you know about a security incident affecting your Social Radar Suite
 account. We're contacting you directly because we believe **your data may have
 been involved**, and we want to be straightforward about what happened.
 
@@ -31,7 +31,7 @@ We have **no evidence** that the following data was accessed:
 - {{ unaffected_category_1 }}
 - {{ unaffected_category_2 }}
 
-Social Stats does not process payments or store any card/billing details.
+Social Radar Suite does not process payments or store any card/billing details.
 
 ## What we've done
 
@@ -44,7 +44,7 @@ Social Stats does not process payments or store any card/billing details.
 
 ## What you should do
 
-1. **Change your Social Stats password.** We've reset every active session, so you'll
+1. **Change your Social Radar Suite password.** We've reset every active session, so you'll
    be signed out the next time you visit.
    → https://app.example.com/u/settings/security
 2. **Enable two-factor authentication** if you haven't already. We strongly
@@ -70,7 +70,7 @@ keep raising the bar.
 
 {{ ceo_signature }}
 {{ ceo_name }}, CEO
-Social Stats
+Social Radar Suite
 
 ---
 

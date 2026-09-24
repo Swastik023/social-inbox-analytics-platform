@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -91,7 +91,7 @@ _THIRD_PARTY = [
     ('google',   'Google integration (YouTube + GMB)'),
     ('linkedin', 'LinkedIn integration'),
     ('pinbot',   'WhatsApp (Pinbot.ai)'),
-    ('ai',       'Social Stats'),
+    ('ai',       'Social Radar Suite'),
 ]
 
 

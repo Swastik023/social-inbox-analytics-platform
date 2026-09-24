@@ -1,5 +1,5 @@
 # ============================================================================
-#  Social Stats — Social Media Management & Marketing Platform
+#  Social Radar Suite — Social Media Management & Marketing Platform
 #  Author    : Chandrabhan Shekhawat
 #  Company   : Gigai Kripa Services
 #  Website   : https://gigaikripaservices.com/
@@ -78,7 +78,7 @@ def handle_human_handoff(executor, node):
                 },
                 cta_url=f'{frontend}/admin/conversations/{conv.id}',
                 cta_label='Open conversation',
-                email_subject=f'[Social Stats] Handoff from {contact_label}',
+                email_subject=f'[Social Radar Suite] Handoff from {contact_label}',
             )
         except Exception:
             logger.exception('handoff notification failed')
