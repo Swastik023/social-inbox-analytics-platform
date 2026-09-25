@@ -1,4 +1,6 @@
-# Social Radar Suite — Omni-Channel Customer Intelligence & Response Platform
+# Social Media Inbox, Sentiment & Response Analytics Platform
+
+> A unified social intelligence platform consolidating customer direct messages, sentiment analysis, and response generation.
 
 > A unified social inbox consolidating direct messages, customer sentiment analysis, engagement metrics, and AI response drafting across networks.
 
