@@ -16,10 +16,10 @@ messaging module. It's built on **Django + React** and is fully self-hostable.
 
 <!-- Badges — replace `cbsshekhawat18` with your GitHub org/username if different,
      and the repo slug if you don't use `social-stats-social-media-manager`. -->
-[![Tests](https://github.com/swastik-agnihotri/social-radar-suite/actions/workflows/tests.yml/badge.svg)](https://github.com/swastik-agnihotri/social-radar-suite/actions/workflows/tests.yml)
+[![Tests](https://github.com/Swastik023/social-inbox-analytics-platform/actions/workflows/tests.yml/badge.svg)](https://github.com/Swastik023/social-inbox-analytics-platform/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/swastik-agnihotri/social-radar-suite?style=social)](https://github.com/swastik-agnihotri/social-radar-suite/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/swastik-agnihotri/social-radar-suite)](https://github.com/swastik-agnihotri/social-radar-suite/commits)
+[![Stars](https://img.shields.io/github/stars/Swastik023/social-inbox-analytics-platform?style=social)](https://github.com/Swastik023/social-inbox-analytics-platform/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Swastik023/social-inbox-analytics-platform)](https://github.com/Swastik023/social-inbox-analytics-platform/commits)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 > **Status:** early-stage. The product is feature-complete enough to run
@@ -381,13 +381,13 @@ for everyone else looking for an open-source social media management tool.
 
 ## Author & Credits
 
-**Social Radar Suite** is built and maintained by **Chandrabhan Shekhawat** —
+**Social Radar Suite** is built and maintained by **Swastik Agnihotri** —
 **Gigai Kripa Services**.
 
 - 🌐 Website: <https://gigaikripaservices.com/>
-- 👤 Author: Chandrabhan Shekhawat
+- 👤 Author: Swastik Agnihotri
 - 🏢 Company: Gigai Kripa Services
-- © 2026 Chandrabhan Shekhawat — Gigai Kripa Services
+- © 2026 Swastik Agnihotri — Gigai Kripa Services
 
 If you use Social Radar Suite in your own project or product, a credit back to the
 author / this repository is appreciated. ⭐ Stars help others find it.
@@ -400,7 +400,7 @@ Released under the **[MIT License](./LICENSE)** — free to use, modify, and
 self-host, for individuals and companies alike.
 
 ```
-Copyright (c) 2026 Chandrabhan Shekhawat — Gigai Kripa Services
+Copyright (c) 2026 Swastik Agnihotri — Gigai Kripa Services
 ```
 
 ---
